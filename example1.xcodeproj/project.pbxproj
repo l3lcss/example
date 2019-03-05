@@ -13,6 +13,8 @@
 		84F75F20222E182100D2CDB2 /* example1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84F75F1E222E182100D2CDB2 /* example1.xcdatamodeld */; };
 		84F75F22222E182200D2CDB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F75F21222E182200D2CDB2 /* Assets.xcassets */; };
 		84F75F25222E182200D2CDB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F75F23222E182200D2CDB2 /* LaunchScreen.storyboard */; };
+		84F75F2F222E1F0500D2CDB2 /* appStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F75F2E222E1F0500D2CDB2 /* appStartViewController.swift */; };
+		84F75F31222E2C6B00D2CDB2 /* feedBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F75F30222E2C6B00D2CDB2 /* feedBackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		84F75F21222E182200D2CDB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F75F24222E182200D2CDB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84F75F26222E182200D2CDB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F75F2E222E1F0500D2CDB2 /* appStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appStartViewController.swift; sourceTree = "<group>"; };
+		84F75F30222E2C6B00D2CDB2 /* feedBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedBackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				84F75F23222E182200D2CDB2 /* LaunchScreen.storyboard */,
 				84F75F26222E182200D2CDB2 /* Info.plist */,
 				84F75F1E222E182100D2CDB2 /* example1.xcdatamodeld */,
+				84F75F2E222E1F0500D2CDB2 /* appStartViewController.swift */,
+				84F75F30222E2C6B00D2CDB2 /* feedBackViewController.swift */,
 			);
 			path = example1;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F75F31222E2C6B00D2CDB2 /* feedBackViewController.swift in Sources */,
 				84F75F20222E182100D2CDB2 /* example1.xcdatamodeld in Sources */,
+				84F75F2F222E1F0500D2CDB2 /* appStartViewController.swift in Sources */,
 				84F75F1A222E182100D2CDB2 /* ViewController.swift in Sources */,
 				84F75F18222E182100D2CDB2 /* AppDelegate.swift in Sources */,
 			);
